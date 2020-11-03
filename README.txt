@@ -1,0 +1,1 @@
+This is an attempt to make up the google homepage without any working links.
