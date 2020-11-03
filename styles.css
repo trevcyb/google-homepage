@@ -1,0 +1,32 @@
+.navbar {
+    list-style: none;
+    margin:0;
+    padding:0;
+    width: 100%;
+}
+
+.rbar {
+    display: block;
+    float: right;
+    padding: 5px;
+}
+
+.search {
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    padding-top: 190px;
+}
+
+img {
+    display:block;
+    padding:0px 100px 40px 280px;
+}
+
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
