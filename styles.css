@@ -94,7 +94,7 @@ input {
     padding:0px;
 }
 
-#country {
+.bottombar {
     display: block;
     left: 0;
     right: 0;
@@ -115,7 +115,9 @@ input {
 #info {
     font-family: arial, sans-serif;
     color: #5f6368;
+    position: absolute;
     font-size: small;
+    bottom: 0;
     float: left;
     list-style-type: none;
     margin: 0;
@@ -136,7 +138,7 @@ input {
     text-decoration: none;
 }
 
-.rops {
+#ops {
     font-family: arial, sans-serif;
     color: #5f6368;
     font-size: small;
@@ -150,12 +152,16 @@ input {
     background-color:#f2f2f2;
 }
 
-.rops li {
+#ops li {
     display: inline-block;
 }
 
-.rops a {
+#ops a {
     display: inline-block;
     padding:8px;
     text-decoration:none;
+}
+
+#priv, #terms, #set {
+    float:right;
 }
