@@ -1,3 +1,12 @@
+html, body {
+    font-family: arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+      
+}
+
+
 .navbar {
     list-style: none;
     margin:0;
@@ -8,7 +17,19 @@
 .rbar {
     display: block;
     float: right;
-    padding: 5px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#signin {
+   border: 1px solid #4285f4;
+   margin-right:20px;
+   font-weight: bold;
+   outline: none;
+   background: #4285f4;
+   background: -moz-linear-gradient(top,#4387fd,#4683ea);
+   background: linear-gradient(top,#4387fd,#4683ea);
+   color: white;
 }
 
 .search {
@@ -21,7 +42,7 @@
 
 img {
     display:block;
-    padding:0px 100px 40px 280px;
+    padding:0px 40px 40px 340px;
 }
 
 input {
@@ -29,4 +50,112 @@ input {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+.searchbar {
+    margin-top: 20px;
+    height: 50px;
+    width: 800px;
+}
+
+.searchbutton {
+    border: 0;
+    border-radius: 10px;
+    margin: 20px 20px 100px 0px;
+    padding: 10px 15px;
+    font-size: 15px;
+    background-color: #f2f2f2;
+    color:#262a2e;
+  }
+
+#searchbutton {
+    margin-left: 320px;
+}
+
+.languages {
+    display:inline-block;
+}
+
+#languagelist {
+    list-style-type: none;
+    font-size: small;
+    padding:0px;
+    margin:0px;
+}
+
+#languagelist li {
+    display:inline-block;
+    margin:5px;
+}
+
+#languagep {
+    display:block;
+    margin:0px;
+    padding:0px;
+}
+
+#country {
+    display: block;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+    width: 100%;
+    background-color:#f2f2f2;
+    float: left;
+    font-family: arial, sans-serif;
+    color:#887179;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0px;
+    font-size: small;
+}
+
+#info {
+    font-family: arial, sans-serif;
+    color: #5f6368;
+    font-size: small;
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    border-top: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+    width: 100%;
+    background-color:#f2f2f2;
+}
+
+#info li {
+    display: inline-block;
+}
+
+#info a {
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.rops {
+    font-family: arial, sans-serif;
+    color: #5f6368;
+    font-size: small;
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    border-top: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+    width: 100%;
+    background-color:#f2f2f2;
+}
+
+.rops li {
+    display: inline-block;
+}
+
+.rops a {
+    display: inline-block;
+    padding:8px;
+    text-decoration:none;
 }
