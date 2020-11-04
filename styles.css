@@ -1,11 +1,11 @@
 html, body {
     font-family: arial, sans-serif;
     height: 100%;
+    width: 100%;
     margin: 0;
     padding: 0;
       
 }
-
 
 .navbar {
     list-style: none;
@@ -15,15 +15,17 @@ html, body {
 }
 
 .rbar {
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    color: #887179;
     display: block;
     float: right;
-    padding: 10px;
+    padding: 10px 10px 10px 10px;
     margin-top: 20px;
 }
 
 #signin {
    border: 1px solid #4285f4;
-   margin-right:20px;
    font-weight: bold;
    outline: none;
    background: #4285f4;
@@ -52,10 +54,12 @@ input {
     width: 50%;
 }
 
-.searchbar {
-    margin-top: 20px;
-    height: 50px;
-    width: 800px;
+#searchbar {
+    margin-top: 10px;
+    margin-right: 60px;
+    height: 20px;
+    width: 500px;
+    padding-left: 100px;
 }
 
 .searchbutton {
@@ -73,93 +77,65 @@ input {
 }
 
 .languages {
-    display:inline-block;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
 }
 
 #languagelist {
     list-style-type: none;
     font-size: small;
-    padding:0px;
-    margin:0px;
+    display:block;
+    margin-left: 200px;
 }
 
 #languagelist li {
-    display:inline-block;
+    display:inline;
     margin:5px;
 }
 
-#languagep {
-    display:block;
-    margin:0px;
-    padding:0px;
-}
 
-.bottombar {
-    display: block;
-    left: 0;
-    right: 0;
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
     border-top: 1px solid #E4E4E4;
     border-bottom: 1px solid #E4E4E4;
-    width: 100%;
     background-color:#f2f2f2;
     float: left;
     font-family: arial, sans-serif;
     color:#887179;
-    padding-left: 20px;
     padding-top: 5px;
     padding-bottom: 5px;
     margin: 0px;
     font-size: small;
 }
 
-#info {
-    font-family: arial, sans-serif;
-    color: #5f6368;
-    position: absolute;
-    font-size: small;
-    bottom: 0;
-    float: left;
+#country {
+    border-bottom: #E4E4E4 1px;
+}
+
+.bottombar li {
     list-style-type: none;
-    margin: 0;
+    display: inline;
     padding: 10px;
-    border-top: 1px solid #E4E4E4;
-    border-bottom: 1px solid #E4E4E4;
-    width: 100%;
-    background-color:#f2f2f2;
 }
 
-#info li {
-    display: inline-block;
-}
-
-#info a {
-    display: inline-block;
-    padding: 8px;
+.bottombar a {
     text-decoration: none;
-}
-
-#ops {
     font-family: arial, sans-serif;
-    color: #5f6368;
     font-size: small;
-    float: right;
-    list-style-type: none;
-    margin: 0;
-    padding: 10px;
-    border-top: 1px solid #E4E4E4;
-    border-bottom: 1px solid #E4E4E4;
-    width: 100%;
-    background-color:#f2f2f2;
+    color: #887179;
 }
 
-#ops li {
-    display: inline-block;
+.bottombar ul {
+    margin-left: 0px;
+
 }
 
-#ops a {
-    display: inline-block;
-    padding:8px;
-    text-decoration:none;
+.bottombar #info {
+    border-top: #887179 1px;
 }
 
 #priv, #terms, #set {
