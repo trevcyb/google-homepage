@@ -22,6 +22,7 @@ html, body {
     float: right;
     padding: 10px 10px 10px 10px;
     margin-top: 20px;
+    margin-right: 10px;
 }
 
 #signin {
@@ -114,12 +115,13 @@ footer {
 
 #country {
     border-bottom: #E4E4E4 1px;
+    padding-left: 20px;
 }
 
 .bottombar li {
     list-style-type: none;
     display: inline;
-    padding: 10px;
+    padding-right: 10px;
 }
 
 .bottombar a {
@@ -131,13 +133,17 @@ footer {
 
 .bottombar ul {
     margin-left: 0px;
-
+    padding-left: 10px;
+    border-top: 1px solid #E4e4e4;
+    padding-top: 20px;
 }
 
 .bottombar #info {
-    border-top: #887179 1px;
+    border-top: #E4E4E4 1px;
 }
 
 #priv, #terms, #set {
     float:right;
+    padding-left: 10px;
+    padding-right: 10px;
 }
